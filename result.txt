@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "C:\Users\klopo\email-classifier-hackathon\src\main.py", line 91, in <module>
+    process_inbox()
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\klopo\email-classifier-hackathon\src\main.py", line 32, in process_inbox
+    print(f"\U0001f4c1 Найдено файлов: {len(files)}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\klopo\anaconda3\Lib\encodings\cp1251.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f4c1' in position 0: character maps to <undefined>

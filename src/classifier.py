@@ -51,3 +51,5 @@ def classify(email_data: dict) -> str:
     
     # Если ничего не подошло
     return DEFAULT_CATEGORY
+ALL_CATEGORIES = ["urgent", "it_issue", "access_request", "meeting", "spam", "other"]
+UNKNOWN = "other"
